@@ -13,4 +13,4 @@ def key_for_min_value(name_hash)
   lowest_value_key
 end
 
-puts key_for_min_value([:first => 500, :second => 2, :third => -9])
+puts key_for_min_value({:first => 500, :second => 2, :third => -9})
